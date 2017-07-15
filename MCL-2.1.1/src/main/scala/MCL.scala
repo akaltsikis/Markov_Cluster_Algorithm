@@ -144,7 +144,7 @@ rootLogger.setLevel(Level.ERROR)
     if (lineArray.length < 2) {
       None
     } else {
-        Seq(lineArray(0))
+        Seq(lineArray(0),lineArray(1))
     }
 
 
